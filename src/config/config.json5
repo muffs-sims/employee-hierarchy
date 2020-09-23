@@ -1,0 +1,14 @@
+{
+  "reader": {
+    "type": "csv",
+    "csvReader": {
+      "file": "data/employees.csv"
+    }
+  },
+  "transformer": {
+    "type": "simple"
+  },
+  "writer": {
+    "type": "console"
+  }
+}
